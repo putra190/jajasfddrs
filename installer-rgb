@@ -100,7 +100,7 @@ else
 fi
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 echo "==========================================="
 elif [[ $jawab == "ut" || $jawab == "UT"  || $jawab == "2" ]]; then
 clear
@@ -129,7 +129,7 @@ else
 fi
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 echo "==========================================="
 elif [[ $jawab == "a" || $jawab == "A"  || $jawab == "3" ]]; then
 echo -n "  Enter New Username : " 
@@ -147,14 +147,14 @@ read -r USERNEW
 echo -e "user=$USERNEW\npasswd=$PASSNOW" > /root/auth.txt
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 elif [[ $jawab == "p" || $jawab == "P"  || $jawab == "5" ]]; then
 echo -n "  Enter New Password : "
 read -r PASSNEW
 echo -e "user=$USERNOW\npasswd=$PASSNEW" > /root/auth.txt
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 elif [[ $jawab == "lp" || $jawab == "LP"  || $jawab == "6" ]]; then
 clear
 echo "==========================================="
@@ -203,7 +203,7 @@ echo "==========================================="
 echo -e " Install login page process finished..."
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 elif [[ $jawab == "rlp" || $jawab == "RLP"  || $jawab == "7" ]]; then
 clear
 clear
