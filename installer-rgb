@@ -140,7 +140,7 @@ read -r PASSNEW
 echo -e "user=$USERNEW\npasswd=$PASSNEW" > /root/auth.txt
 echo "==========================================="
 clear
-./installer-adminlte
+./installer-rgb
 elif [[ $jawab == "u" || $jawab == "U"  || $jawab == "4" ]]; then
 echo -n "  Enter New Username : " 
 read -r USERNEW
