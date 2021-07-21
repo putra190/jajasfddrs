@@ -10,14 +10,10 @@ YEL='\033[1;33m'
 GRE='\033[1;32m'
 NOR='\033[0;37m'
 
-USERNOW=$(grep user /root/auth.txt | sed 's/.*user=//')
-PASSNOW=$(grep passwd /root/auth.txt | sed 's/.*passwd=//')
-LOGINOW=$(if [ -e /www/xderm/login.php ]; then echo -e "${GRE}Available"; else echo -e "${RED}Unavailable"; fi)
-LOGINOWBAK=$(if [ -e /www/xderm/login.php.xdrtool ]; then echo -e "${GRE}Available"; else echo -e "${RED}Unavailable"; fi)
 URL="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
 echo "==========================================="
-echo -e "|       ${BLU} Installation RGB${YEL}THEME ${GRE}by Adi-Putra${NOR}       |"
-echo "===========================================${GRE}"
+echo -e "|       ${BLU} Installation RGB ${GRE} THEME by Adi-Putra${NOR}       |"
+echo "===========================================$"
 echo "  Install Theme for Xderm         = 1"
 echo "  Install Theme for Libernet      = 2"
 echo -e "${NOR}==========================================="
@@ -27,9 +23,8 @@ echo ""
 echo -n "  Enter Your Option : " 
 read -r jawab
 echo "==========================================="
-clear
-bash installer-rgb
-if [[ $jawab === "1" ]]; then
+
+elif [[ $jawab == "1" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
 echo "=========================================="
