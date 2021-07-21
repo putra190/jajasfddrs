@@ -29,7 +29,7 @@ read -r jawab
 echo "==========================================="
 clear
 bash installer-rgb
-if [[ $jawab == "1" ]]; then
+if [[ $jawab === "1" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
 echo "=========================================="
