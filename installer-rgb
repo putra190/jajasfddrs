@@ -16,7 +16,7 @@ LOGINOW=$(if [ -e /www/xderm/login.php ]; then echo -e "${GRE}Available"; else e
 LOGINOWBAK=$(if [ -e /www/xderm/login.php.xdrtool ]; then echo -e "${GRE}Available"; else echo -e "${RED}Unavailable"; fi)
 URL="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
 echo "==========================================="
-echo -e "|       ${RED}Installation ${BLU}theme ${YEL}RGB ${GRE}by putra${NOR}       |"
+echo -e "|       ${BLU} Installation RGB${YEL}THEME ${GRE}by Adi-Putra${NOR}       |"
 echo "===========================================${GRE}"
 echo "  Install Theme for Xderm         = 1"
 echo "  Install Theme for Libernet      = 2"
