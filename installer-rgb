@@ -45,7 +45,7 @@ echo "==========================================="
 echo -e " Installation finished !"
 echo "==========================================="
 clear
-bash installer-rgb
+./installer-rgb
 else
 echo " Exiting program !"
 echo "==========================================="
