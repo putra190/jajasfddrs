@@ -13,8 +13,8 @@ NOR='\033[0;37m'
 URL="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
 echo "==========================================="
 echo -e "|       ${BLU} Installation RGB ${GRE} THEME by Adi-Putra${NOR}       |"
-echo "===========================================$"
-echo "  Install Theme for Xderm         = 1"
+echo "==========================================="
+echo "  Install Theme for Xderm         = 8"
 echo "  Install Theme for Libernet      = 2"
 echo -e "${NOR}==========================================="
 echo "  Exit = type anything !"
@@ -24,7 +24,7 @@ echo -n "  Enter Your Option : "
 read -r jawab
 echo "==========================================="
 
-elif [[ $jawab == "1" ]]; then
+elif [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "8" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
 echo "=========================================="
