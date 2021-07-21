@@ -24,7 +24,7 @@ echo -n "  Enter Your Option : "
 read -r jawab
 echo "==========================================="
 
-elif [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "8" ]]; then
+if [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "8" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
 echo "=========================================="
