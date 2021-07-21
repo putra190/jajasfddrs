@@ -1,0 +1,53 @@
+#!/bin/bash
+#--------------------------------------------------------
+#   This script is used for instalation theme rgb xderm
+#   Script by helmiau a.k.a Helmi Amirudin
+#--------------------------------------------------------
+
+RED='\033[0;31m'
+BLU='\033[1;34m'
+YEL='\033[1;33m'
+GRE='\033[1;32m'
+NOR='\033[0;37m'
+
+URL="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
+echo "==========================================="
+echo -e "|${BLU} Installation RGB ${GRE} THEME by Adi-Putra${NOR}|"
+echo "==========================================="
+echo "  Install Theme for Xderm         = 8"
+echo "  Install Theme for Libernet      = 2"
+echo -e "${NOR}==========================================="
+echo "  Exit = type anything !"
+echo "==========================================="
+echo ""
+echo -n "  Enter Your Option : " 
+read -r jawab
+echo "==========================================="
+
+if [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "8" ]]; then
+echo "==========================================="
+echo -e " Installing RGB Theme by ADI-PUTRA"
+echo "=========================================="
+url="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
+wget -O /www/xderm/img/ico.png --no-check-certificate $url/img/ico.png -q
+wget -O /www/xderm/img/image.png --no-check-certificate $url/img/image.png -q
+wget -O /www/xderm/img/background.jpg --no-check-certificate $url/img/background.jpg -q
+wget -O /www/xderm/index.php --no-check-certificate $url/index.php -q
+wget -O /www/xderm/login.php --no-check-certificate $url/login.php -q
+wget -O /www/xderm/login.html --no-check-certificate $url/login.html -q
+wget -O /www/xderm/addon.php --no-check-certificate $url/addon.php -q
+mkdir /www/xderm/css
+chmod 777 /www/xderm/css -q
+wget -O /www/xderm/css/login.css --no-check-certificate $url/css/login.css -q
+wget -O /www/xderm/css/style.css --no-check-certificate $url/css/style.css -q
+wget -O /www/xderm/css/theme.css --no-check-certificate $url/css/theme.css -q
+echo "==========================================="
+echo -e " Installation finished !"
+echo "==========================================="
+clear
+./installer-rgb
+else
+echo " Exiting program !"
+echo "==========================================="
+exit
+fi
