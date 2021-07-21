@@ -36,7 +36,7 @@ wget -O /www/xderm/login.php --no-check-certificate $url/login.php -q
 wget -O /www/xderm/login.html --no-check-certificate $url/login.html -q
 wget -O /www/xderm/addon.php --no-check-certificate $url/addon.php -q
 mkdir /www/xderm/css
-chmod 777 /www/xderm/css -q
+chmod 777 /www/xderm/css
 wget -O /www/xderm/css/login.css --no-check-certificate $url/css/login.css -q
 wget -O /www/xderm/css/style.css --no-check-certificate $url/css/style.css -q
 wget -O /www/xderm/css/theme.css --no-check-certificate $url/css/theme.css -q
