@@ -23,8 +23,7 @@ echo ""
 echo -n "  Enter Your Option : " 
 read -r jawab
 echo "==========================================="
-clear
-./installer-rgb
+
 if [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "1" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
