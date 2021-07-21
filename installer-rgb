@@ -14,7 +14,7 @@ URL="https://raw.githubusercontent.com/putra190/xdrtheme-rgb/main"
 echo "==========================================="
 echo -e "|${BLU} Installation RGB ${GRE} THEME by Adi-Putra${NOR}|"
 echo "==========================================="
-echo "  Install Theme for Xderm         = 8"
+echo "  Install Theme for Xderm         = 1"
 echo "  Install Theme for Libernet      = 2"
 echo -e "${NOR}==========================================="
 echo "  Exit = type anything !"
@@ -25,7 +25,7 @@ read -r jawab
 echo "==========================================="
 clear
 ./installer-rgb
-if [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "8" ]]; then
+if [[ $jawab == "dt" || $jawab == "DT"  || $jawab == "1" ]]; then
 echo "==========================================="
 echo -e " Installing RGB Theme by ADI-PUTRA"
 echo "=========================================="
